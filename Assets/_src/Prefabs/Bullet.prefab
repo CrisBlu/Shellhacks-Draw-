@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8887050885874869573}
   - component: {fileID: 2684907144694575648}
   - component: {fileID: 8378793111322324593}
+  - component: {fileID: -6031610734863504666}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -114,3 +115,45 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-6031610734863504666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5838879270915857756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1312809854, guid: 0ae8d181602a00248a82f64a684a1c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Multiplayer: {fileID: 0}
+  _uidString: 18c98c53-82a9-4f5e-b56b-4adc18d5f509
+  BucketBehaviors:
+  - Name: Min
+    NetLOD: 0
+    Frequency: -1
+    Pending: 0
+    LastUpdated: 0
+  - Name: Low
+    NetLOD: 1
+    Frequency: 0
+    Pending: 0
+    LastUpdated: 0
+  - Name: Mid
+    NetLOD: 2
+    Frequency: 0
+    Pending: 0
+    LastUpdated: 0
+  - Name: High
+    NetLOD: 3
+    Frequency: 0
+    Pending: 0
+    LastUpdated: 0
+  - Name: Max
+    NetLOD: 4
+    Frequency: 500
+    Pending: 0
+    LastUpdated: 0
+  UseGlobalPosition: 0
+  SyncInFixedUpdate: 1
