@@ -155,5 +155,5 @@ MonoBehaviour:
     Frequency: 500
     Pending: 0
     LastUpdated: 0
-  UseGlobalPosition: 0
+  UseGlobalPosition: 1
   SyncInFixedUpdate: 1
