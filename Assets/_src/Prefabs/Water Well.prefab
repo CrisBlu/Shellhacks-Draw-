@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 949752581983040081}
   m_Layer: 0
   m_Name: Water Well
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,4 +111,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a93f629c03fb2b44b5e92cf12d71ca9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TowerHP: 0
+  TowerHP: 150

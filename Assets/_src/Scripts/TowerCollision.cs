@@ -6,4 +6,8 @@ public class TowerCollision : MonoBehaviour
 {
     [SerializeField] int TowerHP;
 
+    public void DamageTower(int damage){
+        TowerHP -= damage;
+    }
+
 }
